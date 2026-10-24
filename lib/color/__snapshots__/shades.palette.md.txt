@@ -1,0 +1,26 @@
+| Name | HEX | OKLCH | Value (HEX) |
+| --- | --- | --- | --- |
+| indigo | #6366f1 | oklch(58.54% 0.2041 277.12) | #6366f1 |
+| indigo-50 | #f1f6ff | oklch(97.5% 0.0286 277.12) | #f1f6ff |
+| indigo-100 | #e2e9ff | oklch(94% 0.0571 277.12) | #e2e9ff |
+| indigo-200 | #ccd5ff | oklch(88.5% 0.102 277.12) | #ccd5ff |
+| indigo-300 | #b1bdff | oklch(81.89% 0.1469 277.12) | #b1bdff |
+| indigo-400 | #8e9aff | oklch(72.77% 0.1836 277.12) | #8e9aff |
+| indigo-500 | #757bff | oklch(65.16% 0.2041 277.12) | #757bff |
+| indigo-600 | #6366f1 | oklch(58.54% 0.2041 277.12) | #6366f1 |
+| indigo-700 | #5050cd | oklch(50.66% 0.1877 277.12) | #5050cd |
+| indigo-800 | #3e3da6 | oklch(42.77% 0.1632 277.12) | #3e3da6 |
+| indigo-900 | #2f2e83 | oklch(35.89% 0.1388 277.12) | #2f2e83 |
+| indigo-950 | #1a1955 | oklch(26% 0.1061 277.12) | #1a1955 |
+| yellow | #f59e0b | oklch(76.86% 0.1647 70.08) | #f59e0b |
+| yellow-50 | #fff0dd | oklch(96.46% 0.032 70.08) | #fff0dd |
+| yellow-100 | #ffdeb7 | oklch(91.93% 0.064 70.08) | #ffdeb7 |
+| yellow-200 | #ffc279 | oklch(85.39% 0.1143 70.08) | #ffc279 |
+| yellow-300 | #f59e0b | oklch(76.86% 0.1647 70.08) | #f59e0b |
+| yellow-400 | #d78100 | oklch(67.89% 0.2058 70.08) | #d78100 |
+| yellow-500 | #b96d00 | oklch(60.43% 0.2287 70.08) | #b96d00 |
+| yellow-600 | #9f5d00 | oklch(53.96% 0.2287 70.08) | #9f5d00 |
+| yellow-700 | #884e00 | oklch(48% 0.2104 70.08) | #884e00 |
+| yellow-800 | #6e3d00 | oklch(41% 0.183 70.08) | #6e3d00 |
+| yellow-900 | #592f00 | oklch(35% 0.1555 70.08) | #592f00 |
+| yellow-950 | #3a1b00 | oklch(26% 0.1189 70.08) | #3a1b00 |

@@ -1,0 +1,176 @@
+{
+  "compatibleVersion": "2.0",
+  "pluginVersion": "2.22",
+  "colors": [
+    {
+      "name": "indigo",
+      "red": 0.388235,
+      "green": 0.4,
+      "blue": 0.945098,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-50",
+      "red": 0.945098,
+      "green": 0.964706,
+      "blue": 1,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-100",
+      "red": 0.886275,
+      "green": 0.913725,
+      "blue": 1,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-200",
+      "red": 0.8,
+      "green": 0.835294,
+      "blue": 1,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-300",
+      "red": 0.694118,
+      "green": 0.741176,
+      "blue": 1,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-400",
+      "red": 0.556863,
+      "green": 0.603922,
+      "blue": 1,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-500",
+      "red": 0.458824,
+      "green": 0.482353,
+      "blue": 1,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-600",
+      "red": 0.388235,
+      "green": 0.4,
+      "blue": 0.945098,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-700",
+      "red": 0.313725,
+      "green": 0.313725,
+      "blue": 0.803922,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-800",
+      "red": 0.243137,
+      "green": 0.239216,
+      "blue": 0.65098,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-900",
+      "red": 0.184314,
+      "green": 0.180392,
+      "blue": 0.513725,
+      "alpha": 1
+    },
+    {
+      "name": "indigo-950",
+      "red": 0.101961,
+      "green": 0.098039,
+      "blue": 0.333333,
+      "alpha": 1
+    },
+    {
+      "name": "yellow",
+      "red": 0.960784,
+      "green": 0.619608,
+      "blue": 0.043137,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-50",
+      "red": 1,
+      "green": 0.941176,
+      "blue": 0.866667,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-100",
+      "red": 1,
+      "green": 0.870588,
+      "blue": 0.717647,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-200",
+      "red": 1,
+      "green": 0.760784,
+      "blue": 0.47451,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-300",
+      "red": 0.960784,
+      "green": 0.619608,
+      "blue": 0.043137,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-400",
+      "red": 0.843137,
+      "green": 0.505882,
+      "blue": 0,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-500",
+      "red": 0.72549,
+      "green": 0.427451,
+      "blue": 0,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-600",
+      "red": 0.623529,
+      "green": 0.364706,
+      "blue": 0,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-700",
+      "red": 0.533333,
+      "green": 0.305882,
+      "blue": 0,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-800",
+      "red": 0.431373,
+      "green": 0.239216,
+      "blue": 0,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-900",
+      "red": 0.34902,
+      "green": 0.184314,
+      "blue": 0,
+      "alpha": 1
+    },
+    {
+      "name": "yellow-950",
+      "red": 0.227451,
+      "green": 0.105882,
+      "blue": 0,
+      "alpha": 1
+    }
+  ],
+  "gradients": [],
+  "images": []
+}

@@ -1,0 +1,22 @@
+{
+  "compatibleVersion": "2.0",
+  "pluginVersion": "2.22",
+  "colors": [
+    {
+      "name": "indigo",
+      "red": 0.388235,
+      "green": 0.4,
+      "blue": 0.945098,
+      "alpha": 1
+    },
+    {
+      "name": "yellow",
+      "red": 0.960784,
+      "green": 0.619608,
+      "blue": 0.043137,
+      "alpha": 1
+    }
+  ],
+  "gradients": [],
+  "images": []
+}

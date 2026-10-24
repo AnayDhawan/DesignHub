@@ -1,0 +1,4 @@
+| Name | HEX | OKLCH | Value (HEX) |
+| --- | --- | --- | --- |
+| indigo | #6366f1 | oklch(58.54% 0.2041 277.12) | #6366f1 |
+| yellow | #f59e0b | oklch(76.86% 0.1647 70.08) | #f59e0b |

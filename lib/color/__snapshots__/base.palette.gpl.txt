@@ -1,0 +1,5 @@
+GIMP Palette
+Name: Acme Labs
+#
+ 99 102 241	indigo
+245 158  11	yellow

@@ -1,0 +1,28 @@
+GIMP Palette
+Name: Acme Labs
+Columns: 12
+#
+ 99 102 241	indigo
+241 246 255	indigo-50
+226 233 255	indigo-100
+204 213 255	indigo-200
+177 189 255	indigo-300
+142 154 255	indigo-400
+117 123 255	indigo-500
+ 99 102 241	indigo-600
+ 80  80 205	indigo-700
+ 62  61 166	indigo-800
+ 47  46 131	indigo-900
+ 26  25  85	indigo-950
+245 158  11	yellow
+255 240 221	yellow-50
+255 222 183	yellow-100
+255 194 121	yellow-200
+245 158  11	yellow-300
+215 129   0	yellow-400
+185 109   0	yellow-500
+159  93   0	yellow-600
+136  78   0	yellow-700
+110  61   0	yellow-800
+ 89  47   0	yellow-900
+ 58  27   0	yellow-950

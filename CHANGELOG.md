@@ -52,6 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rings, arcs and squares, argyle, plaid and checks, and zigzag, chevron and squiggle are three generators with a Look control (33 generators from 39). Saved backgrounds with an old kind open as the same look.
 - `lib/tokens/formats.ts` and `native.ts` are split into one module per format in `lib/tokens/formats/`; the output is unchanged byte for byte.
 - The default social ZIP pack holds the core platforms instead of every template.
+- The Color Studio export tab has one Download palette menu with the palette files grouped by the tool that opens them (Design apps: Sketch, Procreate, Adobe swatches; Open tools: GIMP and Inkscape, Krita, Paint.NET; Documents: Markdown, PNG). It is a keyboard menu with arrow keys, and the code view keeps only CSS variables, Tailwind, JSON tokens and the SVG gradient. Every file keeps its name and its exact output, now pinned in `lib/color/__snapshots__`.
 - Fixes found by axe: tinted success and brand badges, names that did not contain their visible text (weight rows, pairs, shades, contrast cells, font options) and the favorite heart no longer sits inside a listbox option.
 - Translate the Effects Lab effect picker (every effect's name and description), the shared color and gradient fields and the focus ring, scrollbar and selection controls in every language (en, es, fr, hi), with the contrast results as `{ratio}` placeholders. A test now keeps the `effects.` messages complete in every language.
 

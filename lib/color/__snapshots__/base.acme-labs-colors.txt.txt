@@ -1,0 +1,5 @@
+; paint.net Palette File
+; Name: Acme Labs
+; Colors: 2
+FF6366F1
+FFF59E0B
