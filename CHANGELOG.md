@@ -53,6 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `lib/tokens/formats.ts` and `native.ts` are split into one module per format in `lib/tokens/formats/`; the output is unchanged byte for byte.
 - The default social ZIP pack holds the core platforms instead of every template.
 - Fixes found by axe: tinted success and brand badges, names that did not contain their visible text (weight rows, pairs, shades, contrast cells, font options) and the favorite heart no longer sits inside a listbox option.
+- The command palette opens short: your last five choices, the studios and three actions (new project, toggle theme, shortcuts), under 30 rows, and shows every group (languages, fonts, icons, brand actions and the rest of the actions) only once you type. Recent choices are kept in this browser only (`localStorage`, `designhub:palette-recents`), listed once, and cleared from the palette with "Clear recent choices". The selection and the recents rules are pure functions in `lib/command-palette/` with unit tests, and `tests/e2e/command-palette.spec.ts` covers the empty and the typed states.
 - Translate the Effects Lab effect picker (every effect's name and description), the shared color and gradient fields and the focus ring, scrollbar and selection controls in every language (en, es, fr, hi), with the contrast results as `{ratio}` placeholders. A test now keeps the `effects.` messages complete in every language.
 
 ### Fixed

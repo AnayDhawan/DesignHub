@@ -6,6 +6,7 @@ import { useI18n } from "@/components/layout/locale-provider";
 import { CommandGroup, CommandItem } from "@/components/ui/command";
 import { localeNames } from "@/lib/i18n/locales";
 import { matchLocales } from "@/lib/i18n/search";
+import { useUiStore } from "@/store/ui-store";
 
 /**
  * Language choices for the command palette. They appear when the query is "language" (in any
@@ -13,6 +14,7 @@ import { matchLocales } from "@/lib/i18n/search";
  */
 export function LanguageCommands({ query, onDone }: { query: string; onDone: () => void }) {
   const { locale, setLocale, t } = useI18n();
+  const recordChoice = useUiStore((state) => state.recordChoice);
   const matches = matchLocales(query, t("command.group.language"));
 
   if (matches.length === 0) return null;
@@ -30,6 +32,7 @@ export function LanguageCommands({ query, onDone }: { query: string; onDone: () 
             aria-label={current ? `${localeNames[item]}, ${t("command.currentLanguage")}` : localeNames[item]}
             onSelect={() => {
               onDone();
+              recordChoice({ kind: "language", id: item });
               setLocale(item);
             }}
           >

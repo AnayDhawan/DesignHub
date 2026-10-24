@@ -1,25 +1,23 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { Type } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
 import { useI18n } from "@/components/layout/locale-provider";
 import { CommandGroup, CommandItem } from "@/components/ui/command";
-import { useSelectFont } from "@/hooks/use-select-font";
+import { useOpenFont } from "@/hooks/use-open-font";
 import { fontCategoryLabels, loadFontCatalog } from "@/lib/typography/catalog";
 import { defaultFontFilters, filterFonts } from "@/lib/typography/filter";
-import { useTypographyStore } from "@/store/typography-store";
+import { useUiStore } from "@/store/ui-store";
 import type { FontFamily } from "@/types/typography";
 
 const MAX_RESULTS = 6;
 
 /** Font results inside the command palette. The catalog loads on first open. */
 export function FontCommands({ query, onDone }: { query: string; onDone: () => void }) {
-  const router = useRouter();
   const { t } = useI18n();
-  const selectFont = useSelectFont();
-  const setTab = useTypographyStore((state) => state.setTab);
+  const openFont = useOpenFont();
+  const recordChoice = useUiStore((state) => state.recordChoice);
   const [fonts, setFonts] = useState<FontFamily[]>([]);
 
   useEffect(() => {
@@ -42,9 +40,8 @@ export function FontCommands({ query, onDone }: { query: string; onDone: () => v
           value={`font ${font.family} ${query}`}
           onSelect={() => {
             onDone();
-            selectFont(font.family);
-            setTab("browse");
-            router.push("/typography");
+            recordChoice({ kind: "font", id: font.family });
+            openFont(font.family);
           }}
         >
           <Type />

@@ -65,7 +65,7 @@ Each studio owns one [Zustand](https://zustand.docs.pmnd.rs) store in `store/`:
 | `guidelines-store` | selected page, excluded pages and book theme                                        |
 | `project-store`    | the id of the open brand project                                                    |
 | `brand-dna-store`  | the chosen Brand DNA provider                                                       |
-| `ui-store`         | command palette and shortcuts dialog (not persisted)                                |
+| `ui-store`         | command palette and shortcuts dialog; recent choices go to `localStorage`           |
 
 Persistent stores use Zustand's `persist` middleware with `indexedDbStorage` from `lib/db.ts`, a small adapter over a [Dexie](https://dexie.org) key-value table. Hydration is asynchronous, so server-rendered HTML always matches the defaults and saved state arrives right after mount.
 

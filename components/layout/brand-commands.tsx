@@ -30,6 +30,7 @@ export function BrandCommands({ onDone }: { onDone: () => void }) {
   const { t } = useI18n();
   const activeId = useProjectStore((state) => state.activeId);
   const requestNewProject = useUiStore((state) => state.requestNewProject);
+  const recordChoice = useUiStore((state) => state.recordChoice);
   const guidelineBase = useGuidelineBase();
   const excluded = useGuidelinesStore((state) => state.excluded);
   const variantCtx = useVariantContext();
@@ -94,6 +95,7 @@ export function BrandCommands({ onDone }: { onDone: () => void }) {
         value="new brand project create"
         onSelect={() => {
           onDone();
+          recordChoice({ kind: "action", id: "new-project" });
           requestNewProject();
           router.push("/projects");
         }}
